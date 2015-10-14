@@ -19,10 +19,10 @@ $ git clone https://github.com/nti-ufpe/circle
 3. Go to "Administration -> Setting -> Display" and select circle theme in "Theme" drop-down list;
 4. Save your settings.
 
-#### License
+##### License
 Redmine Circle theme is open source and released under the terms of the GNU General Public License v2 (GPL).
 
-#### Version
+##### Version
 v2.0.2
 
 Copyright (C) 2011-2015 Kirill Bezrukov
