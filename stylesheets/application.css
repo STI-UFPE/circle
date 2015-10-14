@@ -786,6 +786,10 @@ table.progress td {
     padding: 0
 }
 
+table.progress td.closed { 
+    background: #a5d2ff none repeat scroll 0% !important; 
+}
+
 div.details {
     padding: 20px !important
 }
@@ -1240,3 +1244,5 @@ BODY {
         overflow-x: scroll
     }
 }
+
+#login-form table {margin-top:5em; padding:1em; margin-left: auto; margin-right: auto; border: 2px solid #e8f3ff; background-color:#e8f3ff; }
