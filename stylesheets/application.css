@@ -276,7 +276,11 @@ div#content .contacts-tags-edit ul.tagit {
 }
 
 div#content .context-menu-selection {
-    background-color: #1564b2 !important
+    color: #000 !important;
+}
+
+div#content .context-menu-selection a, .context-menu-selection a:hover {
+    color: #000 !important;
 }
 
 body #context-menu ul {
@@ -657,6 +661,10 @@ table.list tbody td, table.list tbody tr:hover td {
     border: 1px solid #d7d7d7
 }
 
+table.list tbody td {
+    background-color: #fff;
+}
+
 table.list thead th {
     border-width: 1px;
     border-style: solid;
@@ -672,109 +680,32 @@ table.list input[type=checkbox] {
 }
 
 table.list tbody tr:hover {
-    background-color: #dfeff7
+    background-color: none !important;
 }
 
 table.list tr.issue a {
     color: #666
 }
 
-table.list tbody tr.odd.priority-highest:hover, tr.odd.priority-highest {
+table.list tbody tr.priority-highest:hover, tr.priority-highest {
     color: #900;
-    font-weight: 700
+    font-weight: 600
 }
 
-tr.odd.priority-highest {
-    background: #FFE2E2
-}
-
-table.list tbody tr.even.priority-highest:hover, tr.even.priority-highest {
-    color: #900;
-    font-weight: 700
-}
-
-tr.even.priority-highest {
-    background: #FAEFEF
-}
-
-tr.priority-5:hover a, tr.priority-highest a {
+table.list tbody tr.priority-high4:hover, tr.priority-high2 {
     color: #900
 }
 
-tr.even.priority-highest td, tr.odd.priority-highest td {
-    border-color: #FDC9C9
-}
-
-table.list tbody tr.odd.priority-high4:hover, tr.odd.priority-high2 {
+table.list tbody tr.priority-high3:hover, tr.priority-high3 {
     color: #900
 }
 
-tr.odd.priority-high2 {
-    background: #FFE2E2
-}
-
-table.list tbody tr.even.priority-high4:hover, tr.even.priority-high2 {
-    color: #900
-}
-
-tr.even.priority-high2 {
-    background: #FAEFEF
-}
-
-tr.priority-high2 a {
-    color: #900
-}
-
-tr.even.priority-high4 td, tr.odd.priority-high2 td {
-    border-color: #FDC9C9
-}
-
-table.list tbody tr.odd.priority-high3:hover, tr.odd.priority-high3 {
-    color: #900
-}
-
-tr.odd.priority-high3 {
-    background: #fee
-}
-
-table.list tbody tr.even.priority-high3:hover, tr.even.priority-high3 {
-    color: #900
-}
-
-tr.even.priority-high3 {
-    background: #fff2f2
-}
-
-tr.priority-high3 a {
-    color: #900
-}
-
-tr.even.priority-high3 td, tr.odd.priority-high3 td {
-    border-color: #fcc
-}
-
-table.list tbody tr.odd.priority-lowest:hover, tr.odd.priority-lowest {
+table.list tbody tr.priority-lowest:hover, tr.priority-lowest {
     color: #559
 }
 
-tr.odd.priority-lowest {
-    background: #eaf7ff
-}
-
-table.list tbody tr.even.priority-lowest:hover, tr.even.priority-lowest {
+table.list tbody tr.priority-lowest:hover, tr.priority-lowest {
     color: #559
-}
-
-tr.even.priority-lowest {
-    background: #f2faff
-}
-
-tr.priority-lowest a {
-    color: #559
-}
-
-tr.even.priority-lowest td, tr.odd.priority-lowest td {
-    border-color: #D2EAFA
 }
 
 div.contact, div.deal, div.issue, div.person {
@@ -782,12 +713,175 @@ div.contact, div.deal, div.issue, div.person {
     padding: 10px !important
 }
 
+/*
+div#relations tbody tr.status td.status {
+    background-color: #900 !important
+}*/
+
+/* Add color status to column status */
+tr.status-1 td.status { 
+    background-color: #FCBDBD
+}
+
+table.list tbody tr.status-2 td.status {
+    background-color: #BC9DBF
+}
+
+table.list tbody tr.status-3 td.status { 
+    background-color: #99CCFF
+}
+
+table.list tbody tr.status-4 td.status { 
+    background-color: #63B6D9
+}
+
+table.list tbody tbody tr.status-5 td.status { 
+    background-color: #D2F5B0
+}
+
+table.list tbody tr.status-6 td.status { 
+    background-color: #C9CCC4
+}
+
+table.list tbody tr.status-7 td.status { 
+    background-color: #E3B7EB
+}
+
+table.list tbody tr.status-8 td.status { 
+    background-color: #FFCD85
+}
+
+table.list tbody tr.status-9 td.status { 
+    background-color: #FFF494
+}
+
+table.list tbody tr.status-10 td.status {
+    background-color: #C2DFFF
+}
+
+table.list tbody tr.status-11 td.status { 
+    background-color: #A6DB74
+}
+
+table.list tbody tr.status-12 td.status {
+    background-color: #E47267
+}
+
+table.list tbody tr.status-13 td.status { 
+    background-color: #FFB380
+}
+
+table.list tbody tr.status-27 td.status { 
+    background-color: #81F7BE
+}
+
+table.list tbody tr.status-28 td.status { 
+    background-color: #FFF494
+}
+
+table.list tbody tr.status-29 td.status { 
+    background-color: #FFCD85
+}
+
+table.list tbody tr.status-30 td.status { 
+    background-color: #E3B7EB
+}
+
+table.list tbody tr.status-31 td.status { 
+    background-color: #81F7BE
+}
+
+table.list tbody tr.status-32 td.status { 
+    background-color: #A6DB74
+}
+
+/* Add color status to issue's border' */
+div.issue {
+  background: #fff none repeat scroll 0 0;
+}
+
+div.issue.status-1 {
+  border: 2px solid #FCBDBD !important;
+}
+
+div.issue.status-2 { 
+    border: 2px solid #BC9DBF !important;
+}
+
+div.issue.status-3 { 
+    border: 2px solid #99CCFF !important;
+}
+
+div.issue.status-4 { 
+    border: 2px solid #63B6D9 !important;
+}
+
+div.issue.status-5 { 
+    border: 2px solid #D2F5B0 !important;
+}
+
+div.issue.status-6 { 
+    border: 2px solid #C9CCC4 !important;
+}
+
+div.issue.status-7 { 
+    border: 2px solid #E3B7EB !important;
+}
+
+div.issue.status-8 { 
+    border: 2px solid #FFCD85 !important;
+}
+
+div.issue.status-9 { 
+    border: 2px solid #FFF494 !important;
+}
+
+div.issue.status-10 { 
+    border: 2px solid #C2DFFF !important;
+}
+
+div.issue.status-11 { 
+    border: 2px solid #A6DB74 !important;
+}
+
+div.issue.status-12 { 
+    border: 2px solid #E47267 !important;
+}
+
+div.issue.status-13 { 
+    border: 2px solid #FFB380 !important;
+}
+
+div.issue.status-27 { 
+    border: 2px solid #81F7BE !important;
+}
+
+div.issue.status-28 { 
+    border: 2px solid #FFF494 !important;
+}
+
+div.issue.status-29 { 
+    border: 2px solid #FFCD85 !important;
+}
+
+div.issue.status-30 { 
+    border: 2px solid #E3B7EB !important;
+}
+
+div.issue.status-31 { 
+    border: 2px solid #81F7BE !important;
+}
+
+div.issue.status-32 { 
+    border: 2px solid #A6DB74 !important;
+}
+
 table.progress td {
     padding: 0
 }
 
 table.progress td.closed { 
-    background: #a5d2ff none repeat scroll 0% !important; 
+    background: #a5d2ff; 
 }
 
 div.details {
