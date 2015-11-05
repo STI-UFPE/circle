@@ -713,85 +713,80 @@ div.contact, div.deal, div.issue, div.person {
     padding: 10px !important
 }
 
-/*
-div#relations tbody tr.status td.status {
-    background-color: #900 !important
-}*/
-
-/* Add color status to column status */
-tr.status-1 td.status { 
+/* Add color status to column id and status */
+table.list tbody tr.status-1 td.id, table.list tbody tr.status-1 td.status  { 
     background-color: #FCBDBD
 }
 
-table.list tbody tr.status-2 td.status {
+table.list tbody tr.status-2 td.id, table.list tbody tr.status-2 td.status {
     background-color: #BC9DBF
 }
 
-table.list tbody tr.status-3 td.status { 
+table.list tbody tr.status-3 td.id, table.list tbody tr.status-3 td.status { 
     background-color: #99CCFF
 }
 
-table.list tbody tr.status-4 td.status { 
+table.list tbody tr.status-4 td.id, table.list tbody tr.status-4 td.status { 
     background-color: #63B6D9
 }
 
-table.list tbody tbody tr.status-5 td.status { 
+table.list tbody tr.status-5 td.id, table.list tbody tbody tr.status-5 td.status { 
     background-color: #D2F5B0
 }
 
-table.list tbody tr.status-6 td.status { 
+table.list tbody tr.status-6 td.id, table.list tbody tr.status-6 td.status { 
     background-color: #C9CCC4
 }
 
-table.list tbody tr.status-7 td.status { 
+table.list tbody tr.status-7 td.id, table.list tbody tr.status-7 td.status { 
     background-color: #E3B7EB
 }
 
-table.list tbody tr.status-8 td.status { 
+table.list tbody tr.status-8 td.id, table.list tbody tr.status-8 td.status { 
     background-color: #FFCD85
 }
 
-table.list tbody tr.status-9 td.status { 
+table.list tbody tr.status-9 td.id, table.list tbody tr.status-9 td.status { 
     background-color: #FFF494
 }
 
-table.list tbody tr.status-10 td.status {
+table.list tbody tr.status-10 td.id, table.list tbody tr.status-10 td.status {
     background-color: #C2DFFF
 }
 
-table.list tbody tr.status-11 td.status { 
+table.list tbody tr.status-11 td.id, table.list tbody tr.status-11 td.status { 
     background-color: #A6DB74
 }
 
-table.list tbody tr.status-12 td.status {
+table.list tbody tr.status-12 td.id, table.list tbody tr.status-12 td.status {
     background-color: #E47267
 }
 
-table.list tbody tr.status-13 td.status { 
+table.list tbody tr.status-13 td.id, table.list tbody tr.status-13 td.status { 
     background-color: #FFB380
 }
 
-table.list tbody tr.status-27 td.status { 
+table.list tbody tr.status-27 td.id, table.list tbody tr.status-27 td.status { 
     background-color: #81F7BE
 }
 
-table.list tbody tr.status-28 td.status { 
+table.list tbody tr.status-28 td.id, table.list tbody tr.status-28 td.status { 
     background-color: #FFF494
 }
 
-table.list tbody tr.status-29 td.status { 
+table.list tbody tr.status-29 td.id, table.list tbody tr.status-29 td.status { 
     background-color: #FFCD85
 }
 
-table.list tbody tr.status-30 td.status { 
+table.list tbody tr.status-30 td.id, table.list tbody tr.status-30 td.status { 
     background-color: #E3B7EB
 }
 
-table.list tbody tr.status-31 td.status { 
+table.list tbody tr.status-31 td.id, table.list tbody tr.status-31 td.status { 
     background-color: #81F7BE
 }
 
-table.list tbody tr.status-32 td.status { 
+table.list tbody tr.status-32 td.id, table.list tbody tr.status-32 td.status { 
     background-color: #A6DB74
 }
 
