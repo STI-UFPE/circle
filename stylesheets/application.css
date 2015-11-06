@@ -41,6 +41,10 @@ a, a:link, a:visited {
     background-color: #fff
 }
 
+#content {
+    background-color: #f9f9f9 !important;
+}
+
 div#content {
     margin-left: -20px;
     padding-left: 25px;
